@@ -17,7 +17,6 @@ Bilibili Hot Videos Data Mining & Danmaku Sentiment Analysis
 
 📈 自动生成洞察与知识挖掘结果
 
-项目最终用于课程《数据挖掘》大作业 / Web 全栈实践 / 可视化分析项目。
 
 🚀 功能特点
 ✔ 视频数据爬取
@@ -61,24 +60,19 @@ KMeans 聚类
 弹幕情绪气泡图、排行榜
 
 🏗 技术栈
-模块	使用技术
-爬虫	requests、B站 API、WBI 鉴权、Cookies
-数据处理	pandas、numpy
-情感分析	transformers、torch、BERT
-聚类分析	scikit-learn
-可视化	matplotlib、seaborn
-环境管理	Anaconda
+模块	                    使用技术
+爬虫	              requests、B站 API、WBI 鉴权、Cookies
+数据处理	            pandas、numpy
+情感分析	            transformers、torch、BERT
+聚类分析	            scikit-learn
+可视化	              matplotlib、seaborn
+环境管理	            Anaconda
 
 🔧 环境安装
 conda create -n bili_crawler python=3.10
 conda activate bili_crawler
 
 pip install -r requirements.txt
-
-
-若出现 huggingface 下载慢，可使用镜像：
-
-set HF_ENDPOINT=https://hf-mirror.com
 
 🕹 使用方法
 1️⃣ 爬取热门视频数据
